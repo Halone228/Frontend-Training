@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+
+hr{
+    border-radius: 3px;
+}
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    font-size: 40px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    min-width: 60%;
+}
+.anchors {
+    display: inline-flex;
+    justify-content: space-around;
+    min-width: 50%;
+}
+.anchors li, .social li{
+    display: inline;
+    font-family: 'DM Mono',sans-serif;
+
+}
+.logo-link, h1{
+    display: inline;
+}
+.social li {
+    margin: 4px;
+}
+.social li img {
+    min-width: 20px;
+    min-height: 20px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+}
+.social{
+    margin: 10px;
+    display: flex;
+}
+.label-wave-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.label-wave h1 {
+    font-size: x-large;
+    font-family: 'Audiowide';
+    font-style: normal;
+    text-transform: uppercase;
+}
+.label-wave p {
+    margin-top: 30%;
+    font-family: 'DM Mono',monospace;
+    font-size: small;
+}
+.label-wave a {
+    display: block;
+    margin-top: 20%;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    min-width: 5%;
+    min-height: 10%;
+    padding-top: 1%;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+}
+.label-wave-wrapper img{
+    display: inline;
+    width: 60%;
+    height: 70%;
+}
+.label-wave {
+    display: block;
+    width: 30%;
+    color: white;
+    align-items: center;
+    padding: 3%;
+}
+.description-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10%;
+    padding: 3%;
+}
+.description-wrapper .left {
+    display: flex;
+    text-transform: uppercase;
+    flex-flow: column;
+    max-width: 40%;
+}
+.description-wrapper .left h1{
+    margin-bottom: 4%;
+    font-size: 38px;
+    font-family: 'Audiowide';
+}
+.description-wrapper .right{
+    margin-left: 4%;
+    display: flex;
+    flex-flow: column;
+}
+.description-wrapper .right .exp {
+    color: greenyellow;
+    font-size: 18px;
+    padding-left: 4%;
+    border-left: 4px solid greenyellow;
+}
+.description-wrapper .right p {
+    margin-bottom: 4%;
+    font-family: 'DM Mono';
+}
+.description-wrapper .right a {
+    display: block;
+    align-self: center;
+    border: 1px solid greenyellow;
+    padding: 2% 4%;
+    font-family: 'DM Mono';
+}
+.discord-invite {
+    display: flex;
+    flex-flow: row;
+    margin: 10%;
+    max-height: 700px;
+    color: white
+}
+.discord-invite .left {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.discord-invite .left a {
+    align-self: center;
+    background-color: greenyellow;
+    color: black;
+    padding: 5%;
+    font-family: 'DM Mono';
+    margin-top: 30%;
+}
+.discord-invite>img {
+    width: 60%;
+}
+footer {
+    background-color: #42006A;
+    display: flex;
+    padding: 5% 8%;
+    color: white;
+    font-family: 'DM Mono';
+}
+footer p {
+    font-size: xx-small;
+}
+footer>div {
+    display: inline-block;
+}
+footer ol {
+    display: block;
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 4%;
+}
+footer ol li {
+    margin-bottom: 10%;
+    font-size: small;
+    font-family: 'DM Mono';
+    font-style: normal;
+}
